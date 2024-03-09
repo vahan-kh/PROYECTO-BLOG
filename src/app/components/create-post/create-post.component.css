@@ -1,0 +1,36 @@
+.textarea-grande {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h2 {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+
+    position: static;
+}
+
+main {
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 2rem;
+    justify-content: center;
+    display: flex;
+
+
+
+}

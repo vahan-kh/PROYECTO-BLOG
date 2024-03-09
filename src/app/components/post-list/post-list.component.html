@@ -1,0 +1,13 @@
+
+
+<section>
+    <div *ngFor="let blog of blog">
+        <h2>{{blog.title}}</h2>
+        <p>{{blog.text}}</p>
+        <p>autor: {{blog.author}}</p>
+        <p>{{blog.publishDate}}</p>
+        <a [routerLink]="['/detailPost', blog.id]">Detalles</a>
+    </div>
+
+</section>
+
