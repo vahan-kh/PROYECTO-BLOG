@@ -5,22 +5,30 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
-    
 }
 
-div{
-    border: 1px solid black;
+.contenido{
+    width: 95%;
     padding: 2rem;
-    border-radius: 40px;
     margin-bottom: 50px;
-    
-
+    font-style: inherit;
+    font-weight: inherit;
+    font-size: 20px;
+    align-items: center;
 }
 
-h2 {
+p{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 510px;
+     
+}
 
+.titulo {
+    font-size: 35px;
     text-align: center;
     padding-bottom: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
 }

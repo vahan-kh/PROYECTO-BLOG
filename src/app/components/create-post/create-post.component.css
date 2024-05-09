@@ -1,9 +1,20 @@
 .textarea-grande {
-    height: 200px;
-    width: 300px;
+    height: 150px;
+    width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 6px;
+    border-color: rgb(151, 149, 149);
+}
+
+.form-control{
+    height: 20px;
+    width: 600px;
+    border-radius: 6px;
+    border-color: rgb(205, 204, 204);
+    
+
 }
 
 section {
@@ -12,21 +23,54 @@ section {
     align-items: center;
 }
 
-.container h2 {
-
-    display: flex;
-    justify-content: center;
-
-}
-
 .container {
-
     position: static;
 }
 
+
+.container h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: rgb(33, 42, 72);
+}
+
+.nombres{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(33, 42, 72);
+
+}
+
+.boton1{
+    padding: 6px;
+    width: 15%;
+    background-color: rgb(220, 217, 217);
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;
+    border-color: transparent;
+    
+
+    
+}
+
+.boton2{
+    padding: 6px;
+    width: 15%;
+    color: white;
+    background-color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;
+    border-color: transparent;
+
+    
+}
+
+
+
 main {
     width: 40%;
-    border: 1px solid black;
+    
     border-radius: 2rem;
     justify-content: center;
     display: flex;

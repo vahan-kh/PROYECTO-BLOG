@@ -19,6 +19,7 @@ export class CreatePostComponent implements OnInit {
       titulo: new FormControl('', [Validators.required]),
       descripcion: new FormControl('', [Validators.required, Validators.minLength(10)]),
       autor: new FormControl('', [Validators.required]),
+      publishDate: new FormControl('',[Validators.required])
 
     })
   }
@@ -37,9 +38,7 @@ export class CreatePostComponent implements OnInit {
     
   }
 
-
-
-
+  
 }
 close(): void {
   this.route.navigate(['/postList']);

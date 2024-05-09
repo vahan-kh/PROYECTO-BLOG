@@ -1,7 +1,8 @@
+
 section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    align-content: flex-end;
 }
 
 div {
@@ -9,24 +10,23 @@ div {
     height: 300px;
     gap: 40px;
     padding: 20px;
-    border: 1px solid black;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 7px;
     margin: 3rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
 
 a {
     text-decoration: none;
     color: white;
-    border: 1px solid black;
     padding: 5px 30px;
     border-radius: 7px;
     background-color: rgb(86, 86, 224);
     float: right;
     
     &:hover {
-        background-color: violet;
-        color: white;
-
-
-    }
+        transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    };
 }

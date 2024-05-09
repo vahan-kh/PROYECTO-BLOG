@@ -8,20 +8,20 @@ import { DetailPostComponent } from './components/detail-post/detail-post.compon
 import { CreatePostComponent } from './components/create-post/create-post.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { NavComponent } from './components/nav/nav.component'
+import { NavComponent } from './components/nav/nav.component';
 @NgModule({
   declarations: [
     AppComponent,
     PostListComponent,
     DetailPostComponent,
     CreatePostComponent,
-    NavComponent
+    NavComponent,
   ],
   imports: [
     ReactiveFormsModule,
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

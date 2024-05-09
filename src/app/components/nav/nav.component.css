@@ -20,18 +20,21 @@ ul {
 
 }
 
+hr{
+    width: 88%;
+   
+}
+
 .lista {
     text-decoration: none;
     color: white;
-    border: 1px solid black;
     padding: 5px 30px;
     border-radius: 7px;
     background-color: rgb(86, 86, 224);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
     &:hover {
-        background-color: violet;
-        color: white;
-
-
-    }
+        transform: scale(1.05);
+        transition: transform 0.3s ease-in-out;
+    };
 }
